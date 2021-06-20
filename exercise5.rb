@@ -8,6 +8,9 @@ distance += 1
 
 elsif user_input == "run"
     distance += 5
+elsif user_input.downcase == "go home"
+    puts "ok going home"
+break
 else
     puts "sorry that is not a valid input"
 end
